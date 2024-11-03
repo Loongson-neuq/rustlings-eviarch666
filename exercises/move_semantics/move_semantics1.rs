@@ -1,28 +1,16 @@
-// move_semantics1.rs
-//
-// Execute `rustlings hint move_semantics1` or use the `hint` watch subcommand
-// for a hint.
+# ⚠　WARNING ⚠
+## Web action detected!
+## 检测到网页端提交！
 
-// I AM NOT DONE
+The commit was made by a web action, which is not allowed to use in this repository. It has been forced to rollback.
+网页端被禁止使用，该提交已经被强制撤回。
+    
+## Previous file page url:
+## 被撤回前文件的页面链接:
 
-fn main() {
-    let vec0 = Vec::new();
+[exercises/move_semantics/move_semantics1.rs@c8e14fe](https://github.com/Loongson-neuq/rustlings-eviarch666/blob/af62575476192b100c55ead9c80e54872f734740/exercises%2Fmove_semantics%2Fmove_semantics1.rs)
 
-    let vec1 = fill_vec(vec0);
+## Previous file raw url:
+## 被撤回前文件的下载链接:
 
-    println!("{} has length {} content `{:?}`", "vec1", vec1.len(), vec1);
-
-    vec1.push(88);
-
-    println!("{} has length {} content `{:?}`", "vec1", vec1.len(), vec1);
-}
-
-fn fill_vec(vec: Vec<i32>) -> Vec<i32> {
-    let mut vec = vec;
-
-    vec.push(22);
-    vec.push(44);
-    vec.push(66);
-
-    vec
-}
+[exercises/move_semantics/move_semantics1.rs@c8e14fe](https://github.com/Loongson-neuq/rustlings-eviarch666/raw/af62575476192b100c55ead9c80e54872f734740/exercises%2Fmove_semantics%2Fmove_semantics1.rs)
