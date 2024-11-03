@@ -8,6 +8,5 @@
 
 
 fn main() {
-    let a = "World";
-    println!("Hello {}!",a);
+    println!("Hello world!");
 }

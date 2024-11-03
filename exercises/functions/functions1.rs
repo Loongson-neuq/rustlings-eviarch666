@@ -4,6 +4,9 @@
 // hint.
 
 
+fn call_me(){
+    return
+}
 
 fn main() {
     fn call_me(){}

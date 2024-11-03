@@ -16,10 +16,11 @@
 
 
 // Put your function here!
-fn calculate_price_of_apples (price:u32)->u32{
-    if 0<price && price <= 40{ price*2 }
-    else {
-        price
+fn calculate_price_of_apples (num: i64) -> i64 {
+    if num <= 40 {
+        num*2
+    }else{
+        num
     }
 }
 
