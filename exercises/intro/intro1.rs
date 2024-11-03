@@ -1,41 +1,16 @@
-// intro1.rs
-//
-// About this `I AM NOT DONE` thing:
-// We sometimes encourage you to keep trying things on a given exercise, even
-// after you already figured it out. If you got everything working and feel
-// ready for the next exercise, remove the `I AM NOT DONE` comment below.
-//
-// If you're running this using `rustlings watch`: The exercise file will be
-// reloaded when you change one of the lines below! Try adding a `println!`
-// line, or try changing what it outputs in your terminal. Try removing a
-// semicolon and see what happens!
-//
-// Execute `rustlings hint intro1` or use the `hint` watch subcommand for a
-// hint.
+# ⚠　WARNING ⚠
+## Web action detected!
+## 检测到网页端提交！
 
-// I AM NOT DONE
+The commit was made by a web action, which is not allowed to use in this repository. It has been forced to rollback.
+网页端被禁止使用，该提交已经被强制撤回。
+    
+## Previous file page url:
+## 被撤回前文件的页面链接:
 
-fn main() {
-    println!("Hello and");
-    println!(r#"       welcome to...                      "#);
-    println!(r#"                 _   _ _                  "#);
-    println!(r#"  _ __ _   _ ___| |_| (_)_ __   __ _ ___  "#);
-    println!(r#" | '__| | | / __| __| | | '_ \ / _` / __| "#);
-    println!(r#" | |  | |_| \__ \ |_| | | | | | (_| \__ \ "#);
-    println!(r#" |_|   \__,_|___/\__|_|_|_| |_|\__, |___/ "#);
-    println!(r#"                               |___/      "#);
-    println!();
-    println!("This exercise compiles successfully. The remaining exercises contain a compiler");
-    println!("or logic error. The central concept behind Rustlings is to fix these errors and");
-    println!("solve the exercises. Good luck!");
-    println!();
-    println!("The source for this exercise is in `exercises/intro/intro1.rs`. Have a look!");
-    println!(
-        "Going forward, the source of the exercises will always be in the success/failure output."
-    );
-    println!();
-    println!(
-        "If you want to use rust-analyzer, Rust's LSP implementation, make sure your editor is set"
-    );
-    println!("up, and then run `rustlings lsp` before continuing.")
-}
+[exercises/intro/intro1.rs@3b7d6cf](https://github.com/Loongson-neuq/rustlings-eviarch666/blob/af62575476192b100c55ead9c80e54872f734740/exercises%2Fintro%2Fintro1.rs)
+
+## Previous file raw url:
+## 被撤回前文件的下载链接:
+
+[exercises/intro/intro1.rs@3b7d6cf](https://github.com/Loongson-neuq/rustlings-eviarch666/raw/af62575476192b100c55ead9c80e54872f734740/exercises%2Fintro%2Fintro1.rs)
