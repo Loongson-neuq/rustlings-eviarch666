@@ -1,28 +1,16 @@
-// if1.rs
-//
-// Execute `rustlings hint if1` or use the `hint` watch subcommand for a hint.
+# ⚠　WARNING ⚠
+## Web action detected!
+## 检测到网页端提交！
 
-// I AM NOT DONE
+The commit was made by a web action, which is not allowed to use in this repository. It has been forced to rollback.
+网页端被禁止使用，该提交已经被强制撤回。
+    
+## Previous file page url:
+## 被撤回前文件的页面链接:
 
-pub fn bigger(a: i32, b: i32) -> i32 {
-    // Complete this function to return the bigger number!
-    // Do not use:
-    // - another function call
-    // - additional variables
-}
+[exercises/if/if1.rs@d08fbab](https://github.com/Loongson-neuq/rustlings-eviarch666/blob/af62575476192b100c55ead9c80e54872f734740/exercises%2Fif%2Fif1.rs)
 
-// Don't mind this for now :)
-#[cfg(test)]
-mod tests {
-    use super::*;
+## Previous file raw url:
+## 被撤回前文件的下载链接:
 
-    #[test]
-    fn ten_is_bigger_than_eight() {
-        assert_eq!(10, bigger(10, 8));
-    }
-
-    #[test]
-    fn fortytwo_is_bigger_than_thirtytwo() {
-        assert_eq!(42, bigger(32, 42));
-    }
-}
+[exercises/if/if1.rs@d08fbab](https://github.com/Loongson-neuq/rustlings-eviarch666/raw/af62575476192b100c55ead9c80e54872f734740/exercises%2Fif%2Fif1.rs)
