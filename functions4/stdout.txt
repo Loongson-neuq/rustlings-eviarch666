@@ -1,0 +1,32 @@
+Checking test execution result...
+[!] Test execution result: PASSED
+Checking source code format...
+  Preparing source code for format check...
+  Running format check...
+// =====================================================
+//  Running cargo fmt...
+// =====================================================
+Diff in /home/runner/work/rustlings-eviarch666/rustlings-eviarch666/format_check/src/lib.rs:8:
+ // Execute `rustlings hint functions4` or use the `hint` watch subcommand for a
+ // hint.
+ 
+-
+-
+ fn main() {
+     let original_price = 51;
+     println!("Your sale price is {}", sale_price(original_price));
+Diff in /home/runner/work/rustlings-eviarch666/rustlings-eviarch666/format_check/src/lib.rs:16:
+ }
+ 
+-fn sale_price(price: i32) -> i32{
++fn sale_price(price: i32) -> i32 {
+     if is_even(price) {
+         price - 10
+     } else {
+
+
+// =====================================================
+//    Running cargo clippy...
+// =====================================================
+
+[!] Source code format check: FAILED

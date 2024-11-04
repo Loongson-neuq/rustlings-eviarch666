@@ -1,0 +1,32 @@
+Checking test execution result...
+[!] Test execution result: PASSED
+Checking source code format...
+  Preparing source code for format check...
+  Running format check...
+// =====================================================
+//  Running cargo fmt...
+// =====================================================
+Diff in /home/runner/work/rustlings-eviarch666/rustlings-eviarch666/format_check/src/lib.rs:13:
+ //
+ // No hints this time ;)
+ 
+-
+-
+ // Put your function here!
+-fn calculate_price_of_apples (num: i64) -> i64 {
++fn calculate_price_of_apples(num: i64) -> i64 {
+     if num <= 40 {
+-        num*2
+-    }else{
++        num * 2
++    } else {
+         num
+     }
+ }
+
+
+// =====================================================
+//    Running cargo clippy...
+// =====================================================
+
+[!] Source code format check: FAILED
